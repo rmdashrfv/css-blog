@@ -1,0 +1,50 @@
+/*
+ * Padding:
+ *   Don't have shit touching the sides of its container!
+ *
+ * Margin:
+ *   Don't have shit touching each other! (Unless you really mean for it to)
+ *
+ * Typeface/Typography:
+ *   Don't use Times New Roman!
+ *   Go to fonts.google.com to find a new font
+ *
+ *   font-family, font-weight, font-size, line-height,  color, letter-spacing
+ *   (These help with visual hierarchy)
+ *
+ *
+ * Assets:
+ *  Large, hi-fidelity graphics/images, SVGs, videos, and icons
+ *
+ *  Let high quality assets do some of the heavy lifting
+ *
+ *
+ */
+
+/* Styles you are certain apply to everything */
+
+body {
+  font-family: sans-serif;
+  padding: 0 15%;
+}
+
+h1 {
+  font-size: 40px; 
+}
+
+p {
+  font-size: 20px; 
+}
+
+/* When you pass 2 values to margin and padding,
+ *
+ * The first value is the top AND bottom;
+ * The second value left AND right;
+ *
+ * If you pass 1 value it corresponds to all sides at once!
+ *
+ * */
+.article-date {
+  margin: 5px 0; 
+  color: #999; /* THIS IS SHORTHAND FOR ALL 9s */
+}
