@@ -30,6 +30,7 @@ body {
 
 h1 {
   font-size: 40px; 
+  margin-bottom: 12px;
 }
 
 p {
@@ -47,4 +48,8 @@ p {
 .article-date {
   margin: 5px 0; 
   color: #999; /* THIS IS SHORTHAND FOR ALL 9s */
+}
+
+.article-text {
+  line-height: 1.5em; 
 }
